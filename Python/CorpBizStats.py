@@ -207,6 +207,4 @@ saves = saves + scheduleTable["Save_Track"].tolist()
 result['Save'] = saves
 
 # print(result)
-# result[cols].to_csv("C:\\Users\\ksarausad\\OneDrive - SODO Labs\\Desktop\\projects\\Stat Scrape\\Runs\\Corporate-Business-Stats " + dt.datetime.today().strftime("%m%d%Y") + '.csv', index=False)
-# result[cols].to_csv("\\\\clemente\\TicketSales\\Reports\\2024 Season\\SSRS Reports\\Corporate-Business-Stats.csv", index=False)
 result[cols].to_csv("Data/Corporate-Business-Stats " + dt.datetime.today().strftime("%m%d%Y") + '.csv', index=False)
